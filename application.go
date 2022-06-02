@@ -20,7 +20,7 @@ func main() {
 			fmt.Println("strconv.Atoi:", err)
 		} else {
 
-			if s < 1 || s > 9 {
+			if s < 0 || s > 10 {
 				fmt.Println("The input number should be greater than 0 and less than 10")
 			} else {
 
